@@ -1,7 +1,19 @@
 #include <stdio.h>
-
-int main()
+int main(void)
 {
-    printf("Hello World!\n");
+    int i,k;
+    scanf("%d",&k);
+    if(k>0)
+    {
+        printf("positive");
+    }
+    else if(k<0)
+    {
+        printf("negative");
+    }
+    else
+    {
+        printf("zero");
+    }
     return 0;
 }
